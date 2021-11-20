@@ -1,0 +1,9 @@
+.header {
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,34 @@
+//UTILS
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/common';
+
+//COMPONENTS
+@import './components/.backdrop-is-hidden';
+@import './components/hero-btn';
+@import './components/portfolio-btn';
+@import './components/container';
+@import './components/footer-form';
+@import './components/modal-checkbox';
+@import './components/modal-form-btn';
+@import './components/modal-form';
+@import './components/portfolio-cards-overlay';
+@import './components/section';
+@import './components/footer-logo';
+@import './components/header-logo';
+@import './components/header-links';
+@import './components/header-contacts';
+@import './components/footer-social-links';
+@import './components/footer-contacts';
+@import './components/portfolio_cards';
+
+//LAYOUT
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero-regular-customers';
+@import './layout/hero-team';
+@import './layout/hero-work';
+@import './layout/hero-advantages';
+@import './layout/hero';
+@import './layout/modal';
+@import './layout/portfolio';
