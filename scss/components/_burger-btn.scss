@@ -7,10 +7,9 @@
   border: none;
   padding: 0;
   line-height: 0;
-  &__icon {
-    &:hover,
-    &:focus {
-      fill: var(--hover-focus-color);
-    }
-  }
+}
+
+.burger-btn__icon:hover,
+.burger-btn__icon:focus {
+  fill: var(--hover-focus-color);
 }
