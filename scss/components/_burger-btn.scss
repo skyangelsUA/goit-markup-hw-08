@@ -1,0 +1,16 @@
+.burger-btn {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  &__icon {
+    &:hover,
+    &:focus {
+      fill: var(--hover-focus-color);
+    }
+  }
+}
