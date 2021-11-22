@@ -6,7 +6,11 @@
   letter-spacing: 0.03em;
   color: var(--logo-color-dark);
 
-  margin-right: 93px;
+  margin-right: 88px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }
 .logo-color {
   color: var(--hover-focus-color);
