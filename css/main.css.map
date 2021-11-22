@@ -33,7 +33,7 @@
         "../scss/layout/_hero.scss",
         "../scss/layout/_modal.scss",
         "../scss/layout/_portfolio.scss",
-        "../scss/components/_mobile-menu.scss"
+        "../scss/layout/_mobile-menu.scss"
     ],
     "names": [],
     "file": "main.css"
