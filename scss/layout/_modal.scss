@@ -1,5 +1,6 @@
 @media screen and (max-width: 767px) {
   .modal {
+    width: 450px;
     background-color: #ffffff;
     position: absolute;
     border-radius: 4px;
@@ -34,7 +35,7 @@
   .modal-form-title {
     font-size: 20px;
     font-weight: 700;
-    line-height: 23px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     color: #212121;
     text-align: center;
@@ -45,6 +46,7 @@
 @media screen and (min-width: 768px) {
   @media screen and (max-width: 1199px) {
     .modal {
+      width: 450px;
       background-color: #ffffff;
       position: absolute;
       border-radius: 4px;
