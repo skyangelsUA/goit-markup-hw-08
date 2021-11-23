@@ -1,3 +1,37 @@
+@media screen and (max-width: 767px) {
+  .footer-contacts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    & .footer-contacts__item {
+      margin-bottom: 9px;
+    }
+  }
+
+  .footer-contact__address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .footer-contact__tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer-contact__mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
 .footer-contacts__list {
   margin-top: 20px;
 

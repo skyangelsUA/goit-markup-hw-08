@@ -1,3 +1,74 @@
+@media screen and (max-width: 767px) {
+  .footer-form {
+    display: flex;
+  }
+
+  .footer-form-area {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  .footer-form-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .footer-form-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2f303a;
+    width: 450px;
+    height: 50px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .footer-form-btn {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    color: #ffffff;
+    background: var(--hover-focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+
+    padding: 0px 28px;
+    border-radius: 4px;
+    display: block;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-form-icon-send {
+    margin-left: 10px;
+  }
+}
+
 .footer-form {
   display: flex;
 }
@@ -15,7 +86,9 @@
 }
 .footer-form-box {
   display: flex;
+  flex-direction: column;
   margin-top: 20px;
+  align-items: center;
 }
 .footer-form-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -40,6 +113,8 @@
 }
 
 .footer-form-btn {
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -57,6 +132,7 @@
   border: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .footer-form-icon-send {
   margin-left: 10px;

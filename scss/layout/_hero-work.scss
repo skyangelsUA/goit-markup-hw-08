@@ -1,5 +1,8 @@
 .work {
   padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 .work-title {
   font-weight: 700;
@@ -13,12 +16,13 @@
 .image-list {
   display: flex;
 
-  &__item:not(:first-child) {
-    margin-left: 30px;
-  }
   &__item {
     position: relative;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
+
   &__item__title {
     display: flex;
     align-items: center;
