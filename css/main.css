@@ -657,13 +657,6 @@ h3 {
   display: block;
 }
 
-.contract {
-  color: var(--hover-focus-color);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .project-box {
   position: relative;
   overflow: hidden;
