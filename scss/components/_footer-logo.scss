@@ -10,3 +10,27 @@
     color: var(--logo-color-light);
   }
 }
+@media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199px) {
+    .footer-logo {
+      display: flex;
+      justify-content: center;
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;
+      color: var(--logo-color-light);
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-light);
+  }
+}
